@@ -6,12 +6,12 @@
             $this->pdo = new PDO("mysql:host=localhost;dbname=gestionpointage","root","");
         }
         public function addFonction($f){
-            $reqPre = $this->pdo->prepare("INSERT INTO fonction (code , nom , montant) VALUES(:c, :n, :m)");
-            $reqPre->execute(array( ":c"=>$f->getCode(),":n"=>$f->getNom(), ":m"=>$f->getMontant()));
+            $reqPre = $this->pdo->prepare("INSERT INTO fonction (code , nom , description) VALUES(:c, :n, :d)");
+            $reqPre->execute(array( ":c"=>$f->getCode(),":n"=>$f->getNom(), ":d"=>$f->getDescription()));
         }
         public function editFonction($cde,$f){
-            $reqPre = $this->pdo->prepare("update fonction set nom = :nm, montant = :mt where code = :cde");
-            $reqPre->execute(array(":nm"=>$f->getNom(),":mt"=>$f->getMontant(),":cde"=>$cde));
+            $reqPre = $this->pdo->prepare("update fonction set nom = :nm, description = :d where code = :cde");
+            $reqPre->execute(array(":nm"=>$f->getNom(),":d"=>$f->getDescription(),":cde"=>$cde));
         }
         public function removeFonction($codeFonction){
             $reqPre = $this->pdo->prepare("DELETE FROM fonction WHERE code = :cF");
@@ -26,7 +26,7 @@
         }
 
         public function getSearchedFonction($filter){
-            $reqPre = $this->pdo->prepare("SELECT * FROM fonction WHERE code LIKE :f OR nom LIKE :f OR montant LIKE :f");
+            $reqPre = $this->pdo->prepare("SELECT * FROM fonction WHERE code LIKE :f OR nom LIKE :f");
             $reqPre->setFetchMode(PDO::FETCH_OBJ);
             $reqPre->execute(array(":f"=>"%".$filter."%"));
             return $reqPre->fetchAll();

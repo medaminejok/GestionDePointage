@@ -8,9 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -19,13 +17,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../G3" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -51,52 +48,72 @@
       <workItem from="1588030910257" duration="2318000" />
       <workItem from="1588314244268" duration="8307000" />
       <workItem from="1588433772248" duration="21632000" />
+      <workItem from="1588474477085" duration="636000" />
+      <workItem from="1588522603132" duration="1034000" />
+      <workItem from="1588634485696" duration="3144000" />
+      <workItem from="1588639820777" duration="1258000" />
+      <workItem from="1588686559617" duration="7237000" />
+      <workItem from="1588762217967" duration="37000" />
+      <workItem from="1588991170419" duration="2873000" />
+      <workItem from="1589068696969" duration="690000" />
+      <workItem from="1589075982315" duration="4802000" />
+      <workItem from="1589119984238" duration="12290000" />
+      <workItem from="1589214323608" duration="1206000" />
+      <workItem from="1589245757322" duration="57000" />
+      <workItem from="1589388940852" duration="507000" />
+      <workItem from="1589390646267" duration="6360000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587829859088">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="446" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1587829859088" />
-    <state x="485" y="103" key="#com.intellij.ide.util.MemberChooser" timestamp="1587863217803">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="485" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1589129299882">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="485" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1589129299882" />
     <state x="485" y="103" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1587863217803" />
     <state x="363" y="123" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587954988928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="363" y="123" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768@0.0.1366.768" timestamp="1587954988928" />
-    <state x="463" y="142" key="FileChooserDialogImpl" timestamp="1588467118608">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="463" y="136" key="FileChooserDialogImpl" timestamp="1588722170551">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="463" y="136" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588722170551" />
     <state x="463" y="142" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1588467118608" />
-    <state x="426" y="218" key="NewPhpClassDialog" timestamp="1588368720428">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="426" y="209" key="NewPhpClassDialog" timestamp="1589127604239">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="426" y="209" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1589127604239" />
     <state x="426" y="218" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1588368720428" />
     <state x="517" y="315" key="NewPhpFileDialog" timestamp="1588368652299">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="517" y="315" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1588368652299" />
-    <state x="186" y="29" key="SettingsEditor" timestamp="1588314284144">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="186" y="27" key="SettingsEditor" timestamp="1589390862288">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="186" y="27" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1589390862288" />
     <state x="186" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1588314284144" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1588465119530">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1588465119530" />
-    <state x="391" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1588434317133">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="391" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1589245820765">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="391" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1588434317133" />
-    <state x="339" y="172" key="run.anything.popup" timestamp="1588469595342">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="391" y="203" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1589245820765" />
+    <state x="391" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1588686566102" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1589393793219">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1589393793219" />
     <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1588469595342" />
   </component>
 </project>

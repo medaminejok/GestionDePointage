@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0
+}
+canvas{
+  position: absolute;
+}
+progress{
+      width: 100%;
+}
+.invisible{
+  display: none;
+}
+
+.shadow{
+      box-shadow: 28px 50px 50px 5px rgba(15, 20, 50, 0.1);
+}

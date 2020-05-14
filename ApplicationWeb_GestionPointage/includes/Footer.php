@@ -1,11 +1,7 @@
-<!--
-<section class="au-breadcrumb m-t-75">
-    <div class="copyright"><br>
-        <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
-    </div>
-</section>
--->
-<!-- END PAGE CONTAINER-->
+</div>
+
+</div>
+
 <!-- Jquery JS-->
 <script src="vendor/jquery-3.2.1.min.js"></script>
 <!-- Bootstrap JS-->
@@ -26,10 +22,6 @@
 <script src="vendor/chartjs/Chart.bundle.min.js"></script>
 <script src="vendor/select2/select2.min.js">
 </script>
-<script src="vendor/vector-map/jquery.vmap.js"></script>
-<script src="vendor/vector-map/jquery.vmap.min.js"></script>
-<script src="vendor/vector-map/jquery.vmap.sampledata.js"></script>
-<script src="vendor/vector-map/jquery.vmap.world.js"></script>
 
 <!-- Main JS-->
 <script src="js/main.js"></script>

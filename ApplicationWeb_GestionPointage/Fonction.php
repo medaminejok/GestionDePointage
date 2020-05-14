@@ -1,16 +1,15 @@
 <?php
 
-
 class Fonction
 {
     private $code;
     private $nom;
-    private $montant;
-    public function __construct($code ="", $nom ="", $montant ="")
+    private $description;
+    public function __construct($code ="", $nom ="", $description="")
     {
         $this->code = $code;
         $this->nom = $nom;
-        $this->montant = $montant;
+        $this->description = $description;
     }
 
     public function getCode()
@@ -33,13 +32,13 @@ class Fonction
         $this->nom = $nom;
     }
 
-    public function getMontant()
+    public function getDescription()
     {
-        return $this->montant;
+        return $this->description;
     }
-    public function setMontant($montant)
+    public function setDescription($description)
     {
-        $this->montant = $montant;
+        $this->description = $description;
     }
 
 }

@@ -8,13 +8,13 @@ class FonctionService
         $this->fDAO = new FonctionDAO();
     }
 
-    public function addFonctionService($code,$nom,$montant){
-        $f = new Fonction($code,$nom,$montant);
+    public function addFonctionService($code,$nom,$description){
+        $f = new Fonction($code,$nom,$description);
         $this->fDAO->addFonction($f);
     }
 
-    public function editCategoryService($oldCode, $nom, $montant){
-        $f = new Fonction('',$nom,$montant);
+    public function editCategoryService($oldCode, $nom, $description){
+        $f = new Fonction('',$nom,$description);
         $this->fDAO->editFonction($oldCode, $f);
     }
 
@@ -26,7 +26,7 @@ class FonctionService
         $listFonctionDAO = $this->fDAO->getAllFonction();
         $listF = array();
         foreach ($listFonctionDAO as $f){
-            $listF[] = new Fonction($f->code, $f->nom, $f->montant);
+            $listF[] = new Fonction($f->code, $f->nom, $f->description);
         }
         return $listF;
     }
@@ -34,13 +34,13 @@ class FonctionService
         $listFonctionDAO = $this->fDAO->getSearchedFonction($filter);
         $listF = array();
         foreach ($listFonctionDAO as $f){
-            $listF[] = new Fonction($f->code, $f->nom, $f->montant);
+            $listF[] = new Fonction($f->code, $f->nom, $f->description);
         }
         return $listF;
     }
     public function getFonctionByCodeService($code){
         $f = $this->fDAO->getFontionByCode($code);
-        return new Fonction($f->code, $f->nom ,$f->montant);
+        return new Fonction($f->code, $f->nom ,$f->description);
     }
 
 }
